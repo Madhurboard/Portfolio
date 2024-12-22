@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 import About from "../components/About"
 import Timeline from "../components/Timeline/Timeline.js"
 import Techstack from "../components/TechStack"
-import CurrentlyListening from "../components/CurrentlyListening"
+import Resume from "../components/Resume"
 import Footer from "../components/Footer"
 import { useEffect, useState } from "react"
 import Contact from "../components/Contact"
@@ -66,7 +66,7 @@ function Home() {
         </div>
         <Techstack />
         <Contact />
-        <CurrentlyListening />
+        <Resume />
       </main>
       <Footer />
     </>
