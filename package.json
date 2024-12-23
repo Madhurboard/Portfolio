@@ -5,6 +5,7 @@
   "dependencies": {
     "@fontsource/poppins": "^5.1.0",
     "@tailwindcss/typography": "^0.5.15",
+    "@vercel/analytics": "^1.4.1",
     "cra-template": "1.2.0",
     "fast-average-color": "^9.4.0",
     "react": "^19.0.0",
