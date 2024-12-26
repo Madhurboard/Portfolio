@@ -47,7 +47,7 @@ export function Projects() {
           </a>
           <a
             className="btn w-50 text-center"
-            href="https://ai-mathnotes.vercel.app/"
+            href="https://ai-math-notes.vercel.app//"
             target="_blank"
             rel="noopener noreferrer"
           >
