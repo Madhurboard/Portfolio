@@ -9,6 +9,8 @@ export function Projects() {
           <p>Developed a real-time chat application using React, Node.js, and Socket.IO, featuring secure user authentication and seamless messaging.</p>
         </Notes>
         <ButtonSet>
+        <div className="flex space-x-4">
+
           <a
             className="btn"
             href="https://github.com/Madhurboard/snappy"
@@ -17,6 +19,15 @@ export function Projects() {
           >
             View on GitHub
           </a>
+          <a
+            className="btn w-50 text-center"
+            href="https://snappy-rose.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Live Website
+          </a>
+        </div>
         </ButtonSet>
       </TimelineEntry>
 
@@ -25,14 +36,25 @@ export function Projects() {
           <p>Developed an AI-driven application that helps users take and organize math notes using Google Gemini API.</p>
         </Notes>
         <ButtonSet>
+        <div className="flex space-x-4">
           <a
-            className="btn"
+            className="btn w-50 text-center"
             href="https://github.com/Madhurboard/Math-notes"
             target="_blank"
             rel="noopener noreferrer"
           >
             View on GitHub
           </a>
+          <a
+            className="btn w-50 text-center"
+            href="https://ai-mathnotes.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Live Website
+          </a>
+        </div>
+
         </ButtonSet>
       </TimelineEntry>
 
