@@ -21,7 +21,7 @@ export function Projects() {
           </a>
           <a
             className="btn w-50 text-center"
-            href="https://snappy-rose.vercel.app"
+            href="https://snappy.madhurpatil.me"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -47,7 +47,7 @@ export function Projects() {
           </a>
           <a
             className="btn w-50 text-center"
-            href="https://ai-math-notes.vercel.app//"
+            href="https://mathnotes.madhurpatil.me"
             target="_blank"
             rel="noopener noreferrer"
           >
