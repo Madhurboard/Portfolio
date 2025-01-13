@@ -6,7 +6,6 @@ export default function Hero() {
   const [textTransform, setTextTransform] = useState(0)
   const [windowHeight, setWindowHeight] = useState(window.innerHeight)
 
-  // Move listener function out of the useEffect to prevent re-creating on every render
   const listener = () => {
     const scrollFromTop = document.body.getBoundingClientRect().top
     if (scrollFromTop > 0) {
@@ -30,16 +29,14 @@ export default function Hero() {
       setWindowHeight(window.innerHeight)
     }
 
-    // Attach event listeners
     window.addEventListener("scroll", listener)
     window.addEventListener("resize", resizeListener)
 
-    // Cleanup event listeners
     return () => {
       window.removeEventListener("scroll", listener)
       window.removeEventListener("resize", resizeListener)
     }
-  }, [windowHeight]) // Only depend on windowHeight to avoid re-running on opacity and transform
+  }, [windowHeight]) 
 
   return (
     <header className="text-white border-white fixed top-0 left-0 right-0 h-screen pt-8 pb-24 -z-1 md:pb-32 bg-gradient-to-tl from-gray-700 via-gray-900 to-black">

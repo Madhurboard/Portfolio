@@ -1,20 +1,19 @@
-import { Experience } from "./Experience"; // Correct path
-import { Education } from "./Education";           // Correct path
-import { Projects } from "./Projects";             // Correct path
-
-import { DateEntry } from './Entry'; // Import DateEntry component
+import { Experience } from "./Experience";
+import { Education } from "./Education";         
+import { Projects } from "./Projects";           
+import { DateEntry } from './Entry'; 
 
 export default function Timeline() {
   return (
     <section className="relative flex flex-col w-full max-w-xl mx-auto timeline pt-4 md:pt-0">
-      <DateEntry title="Projects" /> {/* Projects Header */}
-      <Projects /> {/* Project entries */}
+      <DateEntry title="Projects" /> 
+      <Projects />
       
-      <DateEntry title="Experience" /> {/* Experience Header */}
-      <Experience /> {/* Experience entries for 2024, 2023, etc. */}
+      <DateEntry title="Experience" /> 
+      <Experience /> 
       
-      <DateEntry title="Education" /> {/* Education Header */}
-      <Education /> {/* Education entries */}
+      <DateEntry title="Education" /> 
+      <Education /> 
       
       
       
@@ -23,7 +22,6 @@ export default function Timeline() {
           <defs>
             <linearGradient id="eased-gradient-gradient-standard-layout" x1="0%" y1="0%" x2="0%" y2="100%">
               <stop offset="0%" style={{ stopColor: 'white', stopOpacity: 1 }} />
-              {/* More gradient stops */}
             </linearGradient>
           </defs>
           <mask id="eased-gradient-mask-standard-layout">

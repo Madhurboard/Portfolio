@@ -1,5 +1,5 @@
-import { FaReact, FaNodeJs, FaPython } from 'react-icons/fa'; // React, Node.js, Python, C++
-import { SiTailwindcss, SiMongodb, SiNumpy, SiJupyter, SiTensorflow, SiCplusplus } from 'react-icons/si'; // Tailwind, MongoDB, Numpy, Jupyter
+import { FaReact, FaNodeJs, FaPython } from 'react-icons/fa'; 
+import { SiTailwindcss, SiMongodb, SiNumpy, SiJupyter, SiTensorflow, SiCplusplus } from 'react-icons/si';
 
 export default function Technologies() {
   return (
@@ -37,7 +37,6 @@ export default function Technologies() {
         <div className="flex items-center justify-center">
           <SiCplusplus size={50} className="text-blue-600" />
         </div>
-        {/* Add more icons here as needed */}
       </div>
     </section>
   );

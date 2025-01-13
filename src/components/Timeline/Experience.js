@@ -1,5 +1,5 @@
 import { Briefcase } from "react-feather";
-import { TimelineEntry, Notes } from "./Entry"; // Import the components
+import { TimelineEntry, Notes } from "./Entry";
 
 export function Experience() {
   return (

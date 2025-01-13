@@ -31,7 +31,6 @@ export function ButtonSet({ children }) {
 export function TimelineEntry({ children = null, title, timestamp, Icon, tint = "gray", divider = true }) {
   return (
     <div className="flex mb-20 timeline-item">
-      {/* Icon and dividing line */}
       <div className="flex flex-col items-center">
         <div className={`flex justify-center p-3 rounded-full align-center border-4 border-white ${getTint(tint)}`}>
           <Icon size={16} />
