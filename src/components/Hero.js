@@ -44,7 +44,7 @@ export default function Hero() {
         <article className="flex flex-col items-start justify-center h-full ">
           <h1 className="transform-gpu translate-y-full opacity-0 fade-up-partial mb-4 tracking-wider uppercase text-md md:text-xl lg:text-2xl">Hey, my name is Madhur!</h1>
           <h2 className="transform-gpu translate-y-20 opacity-0 fade-up font-bold mb-4 md:mb-8 text-2xl md:text-3xl lg:text-6xl">
-            An AIML Enthusiast <span className="opacity-30">,who loves diving into AI & Analytics to create smarter, data-driven experiences</span>
+            An AIML Enthusiast <span className="opacity-30">,who loves diving into AI & Analytics to create smarter, data-driven solutions</span>
           </h2>
 
           <div className="transform-gpu translate-y-full opacity-0 fade-up-2 flex items-center gap-4">
@@ -53,7 +53,7 @@ export default function Hero() {
               <span className="sr-only">Go to GitHub profile</span>
             </a>
             <a className="transition-opacity hover:opacity-50" href="https://twitter.com/madhurboard" rel="noopener noreferrer" target="_blank">
-              <Twitter size={32} />
+              <img src="/x.svg" alt="X (formerly Twitter)" className="w-8 h-8 invert" />
               <span className="sr-only">Go to Twitter profile</span>
             </a>
             <p>madhurpatil73@gmail.com</p>
