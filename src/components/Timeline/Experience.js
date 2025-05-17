@@ -4,24 +4,25 @@ import { TimelineEntry, Notes } from "./Entry";
 export function Experience() {
   return (
     <>
-      <TimelineEntry title="President - GeeksforGeeks Student Chapter" timestamp="June 2024 - Present" Icon={Briefcase} tint="indigo">
+       <TimelineEntry title="Data Engineer Intern - Bajaj Finserv Health Ltd" timestamp="Jul 2025 – Present" Icon={Briefcase} tint="blue">
         <Notes>
-          <p>Leading a team of 40, organizing workshops and hackathons, mentoring students.</p>
-          <p>Coordinated with industry professionals to conduct technical sessions on trending technologies.</p>
+          <p>Building scalable data pipelines to support healthcare analytics and operational dashboards. Working on ingestion of real-time and batch data from various sources into cloud-based data warehouses.</p>
+          <p>Developed dashboards and reports to monitor key health and service metrics using Power BI.</p>
+          <p><strong>Key Skills:</strong> Power BI, MySQL, Azure SQL Database, Python</p>
         </Notes>
       </TimelineEntry>
-      
-      <TimelineEntry title="Technical Associate - CodeChef MITSOC" timestamp="July 2023 - June 2024" Icon={Briefcase} tint="green">
+
+      <TimelineEntry title="AI Research and Development Intern - Attain Studios" timestamp="Feb 2025 – Jul 2025" Icon={Briefcase} tint="black">
         <Notes>
-          <p>Organized 4 coding challenges, increasing student participation by 40%.</p>
-          <p>Collaborated on designing problem sets, evaluating 200+ solutions for participants.</p>
+          <p>Implementing modules for real-time video monitoring, face detection, and automated behavior flagging using computer vision and machine learning.</p>
+          <p><strong>Key Skills:</strong> MediaPipe FaceMesh, OpenCV, Dlib, YOLOv8, Haar Cascades</p>
         </Notes>
       </TimelineEntry>
-      
-      <TimelineEntry title="Technical Team Member - AWS Cloud Club" timestamp="August 2023 - February 2024" Icon={Briefcase} tint="blue">
+
+      <TimelineEntry title="AI Research and Development Intern - IS360 Technologies" timestamp="Jul 2024 – Dec 2024" Icon={Briefcase} tint="yellow">
         <Notes>
-          <p>Organized Student Symposium 2023 with 700+ attendees focused on cloud technologies.</p>
-          <p>Completed the #100DaysOfAWS challenge, gaining hands-on experience in AWS services like EC2, S3, and Lambda.</p>
+          <p>Developed a machine learning pipeline using Linear Discriminant Analysis (LDA) to classify EEG signals from the Auditory Oddball paradigm, detecting event-related potentials like the P300 wave.</p>
+          <p><strong>Key Skills:</strong> Machine Learning, LDA</p>
         </Notes>
       </TimelineEntry>
     </>

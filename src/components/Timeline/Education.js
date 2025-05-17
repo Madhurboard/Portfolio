@@ -6,7 +6,7 @@ export function Education() {
     <>
       <TimelineEntry title="Bachelor of Technology, MIT ADT - School of Computing" timestamp="2022 - Present" Icon={Book} tint="purple">
         <Notes>
-          <p>Pursuing a B.Tech in Computing with a CGPA of 8.71 (Fourth Semester).</p>
+          <p>Pursuing a B.Tech in Computing with a CGPA of 8.71 (Fifth Semester).</p>
         </Notes>
       </TimelineEntry>
 

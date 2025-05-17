@@ -8,7 +8,7 @@ export default function About() {
           src={madhur} 
           width="180px" 
           height="180px" 
-          alt="Headshot of Twan Mulder, Front-end Developer" 
+          alt="Headshot of Madhur, Front-end Developer" 
           className="rounded-full"
         />
       </div>

@@ -1,16 +1,27 @@
 import { Experience } from "./Experience";
+import { Position } from "./Positions";
 import { Education } from "./Education";         
-import { Projects } from "./Projects";           
+import { Projects } from "./Projects";
+import { Achievements } from "./Achievements";           
 import { DateEntry } from './Entry'; 
+
+
 
 export default function Timeline() {
   return (
     <section className="relative flex flex-col w-full max-w-xl mx-auto timeline pt-4 md:pt-0">
-      <DateEntry title="Projects" /> 
-      <Projects />
       
       <DateEntry title="Experience" /> 
       <Experience /> 
+
+      <DateEntry title="Positions of Responsibility" />
+      <Position />
+
+      <DateEntry title="Achievements" />
+      <Achievements />
+
+      <DateEntry title="Projects" /> 
+      <Projects />
       
       <DateEntry title="Education" /> 
       <Education /> 

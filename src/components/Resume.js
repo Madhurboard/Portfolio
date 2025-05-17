@@ -13,7 +13,7 @@ export default function DownloadResume() {
           <p className="text-center text-gray-600 mb-6">Click below to view or download my latest resume in PDF format from Google Drive.</p>
           <a
             className="px-8 py-2 text-sm text-center text-white transition-colors border rounded-full bg-blue-550 border-blue-550 hover:border-blue-700 hover:bg-blue-700"
-            href="https://drive.google.com/file/d/1uOQVL1_d1-7EMIEJYLdf1Lg7qMwfl3dj/view?usp=drive_link"
+            href="https://docs.google.com/document/d/19K5l8Tm1AOFa5HRZGA3txem6s8xiOZ9RIZ6A3kSYR_U/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
