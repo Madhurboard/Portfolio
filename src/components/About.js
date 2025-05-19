@@ -8,13 +8,13 @@ export default function About() {
           src={madhur} 
           width="180px" 
           height="180px" 
-          alt="Headshot of Madhur, Front-end Developer" 
+          alt="Headshot of Madhur, Developer" 
           className="rounded-full"
         />
       </div>
       <p className="mb-1 text-sm tracking-wide text-gray-500 uppercase">About</p>
       <h2 className="mb-1 font-bold">Madhur Patil</h2>
-      <p className="text-sm text-gray-500">An AIML Enthusiast who loves diving into AI & Analytics to create smarter, data-driven experiences</p>
+      <p className="text-sm text-gray-500">An AIML Enthusiast who loves diving into AI & Analytics to create smarter, data-driven solutions</p>
     </section>
   )
 }
