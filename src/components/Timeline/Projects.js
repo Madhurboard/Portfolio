@@ -122,6 +122,9 @@ export function Projects() {
           <a className="btn" href="https://github.com/Madhurboard/my-portfolio" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
+          <a className="btn" href="https://madhurpatil.me" target="_blank" rel="noopener noreferrer">
+              Visit Live Website
+            </a>
         </ButtonSet>
       </TimelineEntry>
 
