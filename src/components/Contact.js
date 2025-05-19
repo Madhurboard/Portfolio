@@ -24,7 +24,15 @@ export default function Contact() {
             <br />
             You can reach out to me
             <br />
-            at madhurpatil73@gmail.com
+            at{' '}
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=madhurpatil73@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'white', textDecoration: 'underline' }}
+            >
+              madhurpatil73@gmail.com
+            </a>
           </p>
         </div>
       </article>
