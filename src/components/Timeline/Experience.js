@@ -7,8 +7,6 @@ export function Experience() {
        <TimelineEntry title="Data Engineer Intern - Bajaj Finserv Health Ltd" timestamp="Jul 2025 – Present" Icon={Briefcase} tint="blue">
         <Notes>
           <p>Upcoming</p>
-          // <p>Building scalable data pipelines to support healthcare analytics and operational dashboards. Working on ingestion of real-time and batch data from various sources into cloud-based data warehouses.</p>
-          // <p>Developed dashboards and reports to monitor key health and service metrics using Power BI.</p>
           <p><strong>Key Skills:</strong> Power BI, MySQL, Azure SQL Database, Python</p>
         </Notes>
       </TimelineEntry>
