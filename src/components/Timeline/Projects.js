@@ -12,6 +12,9 @@ export function Projects() {
           <a className="btn" href="https://github.com/Madhurboard/sickle-cell-identifier" target="_blank" rel="noopener noreferrer">
             View on GitHub
           </a>
+          <a className="btn w-50 text-center" href="https://sicklesense-ten.vercel.app" target="_blank" rel="noopener noreferrer">
+              Visit Live Website
+            </a>
         </ButtonSet>
       </TimelineEntry>
 
