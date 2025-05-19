@@ -4,7 +4,7 @@ import { TimelineEntry, Notes, ButtonSet } from "./Entry";
 export function Projects() {
   return (
     <>
-      <TimelineEntry title="SickleSense" timestamp="2025" Icon={Code} tint="green">
+      <TimelineEntry title="SickleSense - Sickle Cell Detection Platform" timestamp="2025" Icon={Code} tint="green">
         <Notes>
           <p>Created a project using OpenCV and Machine Learning to identify sickle cells in blood samples, aiding early diagnosis of Sickle Cell Anemia.</p>
         </Notes>
