@@ -5,7 +5,7 @@ export function Projects() {
   return (
     <>
 
-      <TimelineEntry title="AlgoViz – Interactive Algorithm Visualizer" timestamp="2025" Icon={Code} tint="blue">
+      <TimelineEntry title="AlgoViz – Interactive Algorithm Visualizer" timestamp="2025" Icon={Code} tint="teal">
         <Notes>
           <p>Developed AlgoViz for the Lovable AI Showdown Hackathon – a visual and intuitive algorithm learning tool powered by Google Gemini. Features sorting, pathfinding, recursion, graphs, ML, and more.</p>
         </Notes>
